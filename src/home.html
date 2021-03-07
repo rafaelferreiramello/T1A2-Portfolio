@@ -6,33 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="homestyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito+Sans&family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="home.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="skill.html">Skills</a></li>
-      <li><a href="project.html">Projects</a></li>
-      <li><a href="blog.html">Blog</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+  <ul class="topnav">
+    <li><a class="active" href="home.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="skill.html">Skills</a></li>
+    <li><a href="project.html">Projects</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
   <div class="intro">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi magnam porro esse vero optio maiores fugiat doloremque blanditiis fugit minima atque, inventore eius mollitia repudiandae libero quam, iure, accusantium reiciendis!</p>
+    <h1>Hi, I'm Rafael, junior developer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio molestiae, accusantium vitae maxime quis, veritatis magni numquam quia deleniti qui beatae facilis doloremque tenetur vero, tempora temporibus nihil error voluptatem?</p>
   </div>
-  <div class="introimage">
-    <img src="logorafaelmello.jpg" alt="Logo Rafael Mello">
-  </div>
-  <div class="questions">
-    <p>Questions?<a href="contact.html">Say hi.</a></p>
+    <img class="introimage" src="logorafaelmello.jpg" alt="Logo Rafael Mello">
+  <div class="question">
+    <h3>Questions? <a href="contact.html">Say hi</a></h3>
   </div>
   <footer>
-    <ul>
-      <li>Linkedin</li>
-      <li>GitHub</li>
-      <li>Twitter</li>
-    </ul>
+    <div class="footer-social-icons">
+      <ul>
+        <li><a href="#" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a href="#" target="blank"><i class="fab fa-github"></i></a></li>
+        <li><a href="#" target="blank"><i class="fab fa-twitter"></i></a></li>
+      </ul>
+    </div>
+    <div class="footer-copyrights">
+      <small>&copy; Copyright 2021, Rafael Mello</small> 
+    </div>
   </footer>
 </body>
 </html>
