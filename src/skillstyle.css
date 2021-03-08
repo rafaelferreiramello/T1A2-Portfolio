@@ -32,6 +32,14 @@
     ul.topnav li {float: none;}
   }
   
+  h1 {
+    font-family: 'Roboto Mono', monospace;
+  }
+
+  .softskills {
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
   .footer-social-icons {
     width: auto;
     height: auto;

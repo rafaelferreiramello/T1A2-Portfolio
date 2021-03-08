@@ -32,6 +32,23 @@
     ul.topnav li {float: none;}
   }
   
+
+  h1 {
+    font-family: 'Roboto Mono', monospace;
+  }
+
+  h2 {
+    font-family: 'Roboto Mono', monospace;
+  }
+
+  h4 {
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  p {
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
   .footer-social-icons {
     width: auto;
     height: auto;
