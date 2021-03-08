@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="homestyle.css">
+    <title>Skills</title>
+    <link rel="stylesheet" href="skillstyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito+Sans&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="global.css">
 </head>
 <body>
   <ul class="topnav">
@@ -22,12 +23,12 @@
   <div class="hardskills">
     <h1>Hard Skills</h1>
     <ul>
-      <li><a href="#" target="blank"><i class="fab fa-html"></i></a></li>
-      <li><a href="#" target="blank"><i class="fab fa-css"></i></a></li>
-      <li><a href="#" target="blank"><i class="fab fa-rubi"></i></a></li>
+        <li><i class="fab fa-html5"></i></li>
+        <li><i class="fab fa-css3"></i></li>
+        <li><i class="fas fa-code"></i></li>
     </ul>
   </div>
-  <div class="softskills">
+  <div id="softskills">
     <h1>Soft Skills</h1>
     <ul>
       <li>Leadership Skills</li>
@@ -35,20 +36,19 @@
       <li>Work Ethic</li>
     </ul>
   </div>
-  <div class="resume">
+  <div id="resume">
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error mollitia doloribus necessitatibus distinctio soluta vel ratione dolor minus alias labore. Dolores dolor nihil unde laboriosam illo quis aliquam qui impedit!</p>
-    <button type="button">Download CV</button>
+    <form method="get" action="resume.pdf">
+      <button type="submit">Download CV</button>
+    </form>
   </div>
   <footer>
     <div class="footer-social-icons">
       <ul>
-        <li><a href="#" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
-        <li><a href="#" target="blank"><i class="fab fa-github"></i></a></li>
-        <li><a href="#" target="blank"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://au.linkedin.com/" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a href="https://github.com/rafaelferreiramello" target="blank"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://twitter.com/" target="blank"><i class="fab fa-twitter"></i></a></li>
       </ul>
-    </div>
-    <div class="footer-copyrights">
-      <small>&copy; Copyright 2021, Rafael Mello</small> 
     </div>
   </footer>
 </body>
