@@ -1,7 +1,6 @@
 h1 {
     font-family: 'Roboto Mono', monospace;
     text-align: center;
-    margin: 0 5% 5% 5%;
   }
 
 h3 {
@@ -13,35 +12,91 @@ p {
   }
 
 header {
-  margin: 5% 0 5% 0;
+  margin: 10% 0 5% 0;
 }
 
 header p {
     text-align: left;
     padding-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 0 5% 0 5%;
     width: auto;
 }
 
 #introimage {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  margin: 5% auto 5% auto;
   width: 50%;
   border-radius: 50%;
   box-shadow: 5px 5px 5px 5px #8a8989;
+  filter: grayscale(90%);
 }
 
 section {
   text-align: left;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: 0 5% 5% 5%;
   width: auto;
 }
 
 section h3 {
-  padding: 2em 2em 2em 0;
+  padding: 1em 1em 1em 0;
 }
 
+figure {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  padding: 5%;
+  justify-items: center;
+}
 
+figure img {
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px 2px #8a8989;
+  filter: grayscale(90%);
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  #introimage {
+    width: 300px;
+    height: 300px;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header h1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+  }
+
+  header img {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+
+  header p {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  figure img {
+    width: 250px;
+    height: auto;
+  }
+
+  figure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;   
+  }
+}
+
+@media screen and (min-width: 1000px) {
+
+}
