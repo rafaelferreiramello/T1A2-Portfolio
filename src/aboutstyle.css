@@ -113,7 +113,7 @@ figure img {
   .responsivedesktop figure {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     padding: 0;
   }
@@ -124,7 +124,7 @@ figure img {
   }
 
   .responsivedesktop section {
-    margin: 10% 0 0 0
+    margin: 10% 2% 0 2%;
   }
 }
 
