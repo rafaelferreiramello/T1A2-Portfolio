@@ -75,6 +75,7 @@ figure img {
     grid-row: 1 / 2;
   }
 
+
   header img {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
@@ -98,5 +99,32 @@ figure img {
 }
 
 @media screen and (min-width: 1000px) {
+  .responsivedesktop {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 20px;
+  }
 
+  .responsivedesktop header { 
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+  }
+
+  .responsivedesktop figure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .responsivedesktop figure img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .responsivedesktop section {
+    margin: 10% 0 0 0
+  }
 }
+
