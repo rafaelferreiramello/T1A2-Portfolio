@@ -105,7 +105,6 @@ li {
   main {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 3%;
     align-items: center;
     justify-content: center;
   }

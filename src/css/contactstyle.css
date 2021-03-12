@@ -50,7 +50,6 @@ form {
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
-    margin: 2%;
   }
   
   /* Keeping the footer fixed to the page */
