@@ -44,6 +44,12 @@ form {
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
-    margin: 5%;
+    margin: 2%;
+  }
+
+  .footer-social-icons {
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
   }
 }

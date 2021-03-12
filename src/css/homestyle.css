@@ -75,4 +75,10 @@ p {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
   }
+
+  .footer-social-icons {
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+  }
 }

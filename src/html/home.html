@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="global.css">
-    <link rel="stylesheet" href="homestyle.css">
+    <!-- Stylesheet with same styling for all the pages(NavBar and Footer) -->
+    <link rel="stylesheet" href="../css/global.css">
+    <!-- Specific stylesheet for this page -->
+    <link rel="stylesheet" href="../css/homestyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito+Sans&family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- Navbar that direct to other pages -->
   <nav>
     <ul class="topnav">
       <li><a class="active" href="home.html">Home</a></li>
@@ -22,18 +25,23 @@
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
+  <!-- Div to make layout responsive for Desktop -->
   <div class="desktopdisplay">
+    <!-- Header with introduction text about the page -->
     <header id="griditem1">
       <h1>Hi, I'm Rafael, junior developer</h1>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio molestiae, accusantium vitae maxime quis, veritatis magni numquam quia deleniti qui beatae facilis doloremque tenetur vero, tempora temporibus nihil error voluptatem?</p>
     </header>
+    <!-- Figure that contains the page's image -->
     <figure id="griditem2">
-      <img class="introimage" src="../logorafaelmello.jpg" alt="Logo Rafael Mello">
+      <img class="introimage" src="../images/logorafaelmello.jpg" alt="Logo Rafael Mello">
     </figure>
+    <!-- Section with the 'call to action' link -->
     <section id="griditem3">
-      <h3><b>Questions? </b><a href="contact.html">Say hi</a></h3>
+      <h3><b>Questions? </b><a href="../html/contact.html">Say hi</a></h3>
     </section>
   </div>
+  <!-- Footer with social media icons -->
   <footer class="footer-social-icons">
       <ul>
         <li><a href="https://au.linkedin.com/" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
