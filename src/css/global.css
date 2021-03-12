@@ -26,15 +26,18 @@ nav ul.topnav li a {
   text-decoration: none;
   font-family: 'Lato', sans-serif;
 }
-  
+
+/* Hover effect */
 nav ul.topnav li a:hover:not(.active) {
   background-color: #111;
 }
-  
+
+/* Keeping the selected page in emphashis inside the Navbar  */
 nav ul.topnav li a.active {
   background-color: #3f3f3f;
 }
-  
+
+/* Making the Navbar horizontal in Ipads and Desktops screens */
 @media screen and (min-width: 600px) {
   nav ul.topnav li.right, 
   nav ul.topnav li {
@@ -54,7 +57,8 @@ nav ul.topnav li a.active {
   padding: 0px;
   text-align: center;
 }
-  
+
+/* Using inline-block to have a list in one line (Icons) */
 .footer-social-icons ul li {
   display: inline-block;
   width: 50px;
@@ -73,7 +77,8 @@ nav ul.topnav li a.active {
 .footer-social-icons ul li a i {
   line-height: 50px;
 }
-  
+
+/* Hover effect */
 .footer-social-icons ul li:hover {
   background: rgb(228, 228, 228);
 }

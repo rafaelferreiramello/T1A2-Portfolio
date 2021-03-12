@@ -1,3 +1,4 @@
+/* Styling for Mobile's and Ipad's screens */
 h1 {
   font-family: 'Roboto Mono', monospace;
   text-align: center;
@@ -10,6 +11,7 @@ h3 {
   padding-left: 20px;
 }
 
+/* Styling questions inside the form */
 input[type=text], textarea {
   width: 100%; 
   padding: 12px; 
@@ -20,6 +22,7 @@ input[type=text], textarea {
   margin-bottom: 16px;
 }
 
+/* Styling send button inside the form */
 input[type=submit] {
   background-color: #242424;
   color: white;
@@ -31,6 +34,7 @@ input[type=submit] {
   margin-right: auto;
 }
 
+/* Styling the form like a whole */
 form {
   border-radius: 5px;
   background-color: #f2f2f2;
@@ -38,7 +42,9 @@ form {
   margin: 10% 0;
 }
 
+/* Styling for Desktop's screens */
 @media screen and (min-width: 1000px) {
+  /* Using grid to organise elements inside the page layout */
   main {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -46,7 +52,8 @@ form {
     align-items: center;
     margin: 2%;
   }
-
+  
+  /* Keeping the footer fixed to the page */
   .footer-social-icons {
     position: fixed;
     bottom: 5px;
