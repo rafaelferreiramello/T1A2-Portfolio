@@ -10,8 +10,9 @@ h2 {
     padding-top: 2em;
   }
 
-h4 {
+h3 {
     font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
   }
   
 p {

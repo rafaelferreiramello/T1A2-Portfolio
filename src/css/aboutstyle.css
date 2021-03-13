@@ -4,8 +4,9 @@ h1 {
     text-align: center;
   }
 
-h3 {
+h2 {
     font-family: 'Roboto Mono', monospace;
+    font-size: 1.17em;
   }
   
 p {
@@ -40,7 +41,7 @@ section {
   width: auto;
 }
 
-section h3 {
+section h2 {
   padding: 1em 1em 1em 0;
 }
 

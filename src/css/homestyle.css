@@ -5,11 +5,12 @@ h1 {
   font-family: 'Roboto Mono', monospace;
 }
 
-h3 {
+h2 {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
   font-family: 'Roboto Mono', monospace;
+  font-size: 1.17em;
 }
 
 p {
