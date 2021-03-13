@@ -8,7 +8,7 @@
     <!-- Stylesheet with same styling for all the pages(NavBar and Footer) -->
     <link rel="stylesheet" href="./css/global.css" integrity="sha384-voZXfgzYDZTQWHvCC/aww8MJTr7Y2Uw/2wQCnkP7igNea0gYoICmwjAkpD3ZWlGl">
     <!-- Specific stylesheet for this page -->
-    <link rel="stylesheet" href="./css/contactstyle.css" integrity="sha384-uMJ2Ch8LrH1ejgQc3G4OnSUcGwr2pg13zAjbNQQelssPIif9wvgIYI24+UrOClRD">
+    <link rel="stylesheet" href="./css/contactstyle.css" integrity="sha384-NAHCLvGA0YGWk6X92eNppafSC8WcGJZuuKydd7MwSi3A/m2+ULdLj+Gf55Vgrt/J">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito+Sans&family=Roboto+Mono&display=swap" rel="stylesheet">
@@ -30,19 +30,19 @@
     <!-- Header with introduction text about my details -->
     <header>
       <h1>Get in touch</h1>
-      <h3>email@example.com</h3>
-      <h3>+00 999 999 999</h3>
+      <h2>email@example.com</h2>
+      <h2>+00 999 999 999</h2>
     </header>
     <!-- Contact form -->
     <form action="/action_page.php">
       <label for="fname">First name:</label>
-      <input id="fname" name="fname" placeholder="Your name"><br><br>
+      <input type="text" id="fname" name="fname" placeholder="Your name"><br>
       <label for="lname">Last name:</label>
-      <input id="lname" name="lname" placeholder="Your last name"><br><br><br>
-      <label for="fname">Email:</label>
-      <input id="email" name="email" placeholder="email@example.com"><br><br><br>
-      <label for="lname">Message:</label>
-      <textarea id="message" name="message" placeholder="Write your message here"></textarea><br><br>
+      <input type="text" id="lname" name="lname" placeholder="Your last name"><br>
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" placeholder="email@example.com"><br>
+      <label for="message">Message:</label>
+      <textarea type="text" id="message" name="message" placeholder="Write your message here"></textarea><br>
       <input type="submit" value="Send">
     </form>
   </main>
